@@ -32,7 +32,7 @@ public:
         // Layout
         BLayoutBuilder::Group<>(this, B_VERTICAL, 10)
             .SetInsets(12, 12, 12, 12)
-            .AddGroup(B_GRID_LAYOUT, 5)
+            .AddGrid(5, 5)
                 .Add(cells[0], 0, 0).Add(cells[1], 1, 0).Add(cells[2], 2, 0)
                 .Add(cells[3], 0, 1).Add(cells[4], 1, 1).Add(cells[5], 2, 1)
                 .Add(cells[6], 0, 2).Add(cells[7], 1, 2).Add(cells[8], 2, 2)
